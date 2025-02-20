@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Foodorder.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Foodorder.js">
+</head>
+<body>
+    
+    <div class="header">
+        <nav class="header--menu">
+            <div class="burger--icon">
+                <i class="bx bx-menu"></i>
+            </div>
+            <div class="search--box">
+                <i class="bx bx-search-alt"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="menu--icons">
+                <i class="bx bxs-bowl-rice"></i>
+                <div class="cart-icon">
+                    <i class="bx bxs-cart"></i>
+                    <span>0</span>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="cover">
+        <div class="cover--overlay">
+            <h1>Quick Bite</h1>
+            <span class="slogan">Where Taste Takes the Fast Lane</span>
+        </div>
+    </section>
+    <main>
+        <h2 class="section-heading">Food Menu</h2>
+        <div class="menu--list">
+            <div class="menu--item">
+                <img src="images/biriyani.jpg" alt="ckn bir">
+                <h5>Chicken Biryani</h5>
+            </div>
+            <div class="menu--item">
+                <img src="images/veg biriyani.jpg" alt="bir">
+                <h5>Veg Biryani</h5>
+            </div>
+            <div class="menu--item">
+                <img src="images/fish.jpg" alt="fish">
+                <h5>Karimeen Fry</h5>
+            </div>
+            <div class="menu--item">
+                <img src="images/download.jpg" alt="American Omlette">
+                <h5>American Omlette</h5>
+            </div>
+            <div class="menu--item">
+                <img src="images/bur.jpg" alt="bur">
+                <h5>Spanish Burger</h5>
+            </div>
+            <div class="menu--item">
+                <img src="images/burger.jpg" alt="burger">
+                <h5>Shezwan Chicken Burger</h5>
+            </div>
+            <div class="menu--item">
+                <img src="images/ckn.jpg" alt="Chicken fry ">
+                <h5>Porotta Chicken Combo</h5>
+            </div>
+            <div class="menu--item">
+                <img src="images/dessert.jpg" alt="dessert">
+                <h5>Strawberry Delight </h5>
+            </div>
+        </div>
+        <h2 class="section-heading">Menu Items</h2>
+        <div class="card--list">
+            <div class="card">
+                <img src="images/biriyani.jpg" alt="">
+                <h4 class="card--title">Chicken Biryani</h4>
+                    <div class="card--price">
+                        <div class="price"><i class="bx bx-rupee">160</i></div><i class="bx bx-plus add-to-cart"></i>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="images/veg biriyani.jpg" alt="">
+                <h4 class="card--title">Veg Biryani</h4>
+                    <div class="card--price">
+                        <div class="price"><i class="bx bx-rupee">140</i></div><i class="bx bx-plus add-to-cart"></i>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="images/fish.jpg" alt="">
+                <h4 class="card--title">Karimeen Fry</h4>
+                    <div class="card--price">
+                        <div class="price"><i class="bx bx-rupee">150</i></div><i class="bx bx-plus add-to-cart"></i>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="images/dessert.jpg" alt="">
+                <h4 class="card--title">Strawberry Delight </h4>
+                    <div class="card--price">
+                        <div class="price"><i class="bx bx-rupee">250</i></div><i class="bx bx-plus add-to-cart"></i>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="images/burger.jpg" alt="">
+                <h4 class="card--title">Shezwan Burger </h4>
+                    <div class="card--price">
+                        <div class="price"><i class="bx bx-rupee">180</i></div><i class="bx bx-plus add-to-cart"></i>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="images/bur.jpg" alt="">
+                <h4 class="card--title">Spanish Burger</h4>
+                    <div class="card--price">
+                        <div class="price"><i class="bx bx-rupee">280</i></div><i class="bx bx-plus add-to-cart"></i>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="images/ckn.jpg" alt="">
+                <h4 class="card--title">Porotta Chicken Combo</h4>
+                    <div class="card--price">
+                        <div class="price"><i class="bx bx-rupee">210</i></div><i class="bx bx-plus add-to-cart"></i>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="images/download.jpg" alt="">
+                <h4 class="card--title">American Omlette</h4>
+                    <div class="card--price">
+                        <div class="price"><i class="bx bx-rupee">120</i></div><i class="bx bx-plus add-to-cart"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-close">
+                <i class="bx bx-window-close"></i>
+            </div>
+                <div class="cart-menu">
+                    <h3>My Cart</h3>
+                    <div class="cart-items">test1</div>
+                </div>
+
+                <div class="sidebar--footer">
+                    <div class="total--amount">
+                        <h5>Total</h5>
+                        <div class="cart-total"><i class="bx bx-rupee"></i>0</div>
+                    </div>
+                    <button class="checkout-btn">Checkout</button>
+                </div>
+           
+        </div>
+    </main>
+    <script src="Foodorder.js"></script>
+</body>
+</html>
