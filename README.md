@@ -10,4 +10,20 @@ explore different food items, and it has a menu item section where the price and
 - **HTML Structure**: Well-organized HTML for easy navigation.
 - **CSS Styling**: Custom styles for a modern and appealing layout.
 
+  ## Screenshots
+
+Here are some screenshots of the website:
+
+![Home page](![![food 1](https://github.com/user-attachments/assets/f5982399-b032-4925-a304-47211c46e702)]
+
+
+![Home page][![![food 2](https://github.com/user-attachments/assets/df112d74-9daf-4b38-b571-43d06aaf0f9e)]
+
+
+## Link to Live Website
+
+The live website is available at:  
+[https://anusreeb03.github.io/Food-website/](https://anusreeb03.github.io/Food-website/)
+
+
 
